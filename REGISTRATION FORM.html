@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form >
+        <label >Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label >Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label >Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label >Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label >Hobbies:</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label >Sports</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label >Reading</label><br><br>
+
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write any additional comments here..."></textarea><br><br>
+        <input type="submit"  >
+        <input type="reset"  >
+    </form>
+</body>
+</html>
